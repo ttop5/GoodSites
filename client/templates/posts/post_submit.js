@@ -9,11 +9,11 @@ Template.postSubmit.events({
 
     Meteor.call('postInsert', post, function(error, result) {
       if (error) {
-        return alert(error.reason);
+        return throwError(error.reason);
       }
 
       if (result.postExists) {
-        alert('该链接已经存在');
+        throwError('该链接已经存在');
       }
 
     Router.go('postPage', {_id: result._id});
