@@ -7,7 +7,7 @@ A small program for learning Meteor.
 ```
 git clone https://github.com/ttop5/microscope.git
 cd microscope
-bash installMeteor-1.3.2.4
+bash install-meteor-1.3.2.4
 meteor
 ```
 
