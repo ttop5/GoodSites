@@ -1,4 +1,4 @@
-# microscope
+# GoodSites 
 
 A small program for learning Meteor.
 
